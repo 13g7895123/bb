@@ -40,8 +40,8 @@ if (BaseWork::_get('PageName') != "" && file_exists('Pages/' . BaseWork::_get('P
             
             <div class='right'>
                 <div class='nav_item member'>
-                    <i class="fa-solid fa-user"></i>
-                    <>
+                    <div><i class="fa-solid fa-user"></i></div>
+                    <!-- <div class='drop_down'>123</div> -->
                 </div>
                 <div class='nav_item cart'><i class="fa-solid fa-cart-shopping"></i></div>
                 <div class='nav_item search'><i class="fa-solid fa-magnifying-glass"></i></div>
@@ -51,7 +51,7 @@ if (BaseWork::_get('PageName') != "" && file_exists('Pages/' . BaseWork::_get('P
         <div class='nav_bar2'>
             <div class='nav_main2'>
                 <div class='nav_item2'>所有商品</div>
-                <div class='nav_item2'>盲盒湊團</div>
+                <a href='?PageName=bb_group'><div class='nav_item2'>盲盒湊團</div></a>
                 <div class='nav_item2'>購物須知</div>
                 <div class='nav_item2'>聯繫我們</div>
             </div>
