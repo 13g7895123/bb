@@ -12,7 +12,7 @@ if (BaseWork::_get('PageName') != "" && file_exists('Pages/' . BaseWork::_get('P
 <html lang="zh-tw" >
     <head>
         <meta charset="UTF-8">
-        <title>bb</title>
+        <title>Blind box</title>
 
         <!-- 引入JQuery -->
         <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -32,42 +32,28 @@ if (BaseWork::_get('PageName') != "" && file_exists('Pages/' . BaseWork::_get('P
     </head>
     <body>
         <div class='nav_bar'>
-            <div class='nav_main'>
-                <div class='left'>
-                    <div class='nav_block stock'>
-                        <label class='drop_down'>Stock</label>
-                        <div class='dropdown_content'>
-                            <a href='?PageName=stock_legal_person' style='text-decoration:none'><div class='first_section'>法人買賣超</div></a>
-                            <a href='#' style='text-decoration:none'><div>2</div></a>
-                            <a href='#' style='text-decoration:none'><div>3</div></a>
-                        </div>                    
-                    </div>
-                    <div class='nav_block business'>
-                        <label class='drop_down'>Business</label>
-                        <div class='dropdown_content'>
-                            <a href='?PageName=business_price_tracking' style='text-decoration:none'><div class='first_section'>盲盒</div></a>
-                            <a href='#' style='text-decoration:none'><div>2</div></a>
-                            <a href='#' style='text-decoration:none'><div>3</div></a>
-                        </div> 
-                    </div>
-                    <div class='nav_block assistant'>
-                        <label class='drop_down'>Assistant</label>
-                        <div class='dropdown_content'>
-                            <a href='#' style='text-decoration:none'><div>吃飯</div></a>
-                            <a href='#' style='text-decoration:none'><div>2</div></a>
-                            <a href='#' style='text-decoration:none'><div>3</div></a>
-                        </div> 
-                    </div>
-                    <!-- <div class='nav_block'>3</div> -->
-                </div>
+            <div class='left'>
                 <div class='logo'>
-                    <img src='./assets/images/test logo_100.png' with="100" heigh="100" alt="LOGO">
+                    <img src='./assets/image/nav_logo.png' heigh="30" alt="LOGO">
                 </div>
-                <div class='right'>
-                    <div class='nav_block'>1</div>
-                    <div class='nav_block'>2</div>
-                    <div class='nav_block'>3</div>
+            </div>
+            
+            <div class='right'>
+                <div class='nav_item member'>
+                    <i class="fa-solid fa-user"></i>
+                    <>
                 </div>
+                <div class='nav_item cart'><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class='nav_item search'><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            
+        </div>
+        <div class='nav_bar2'>
+            <div class='nav_main2'>
+                <div class='nav_item2'>所有商品</div>
+                <div class='nav_item2'>盲盒湊團</div>
+                <div class='nav_item2'>購物須知</div>
+                <div class='nav_item2'>聯繫我們</div>
             </div>
         </div>
         
